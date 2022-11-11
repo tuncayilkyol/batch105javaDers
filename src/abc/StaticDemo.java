@@ -8,7 +8,7 @@ public class StaticDemo {
     }
 }
 class StaticYaz {
-    public static void main(String args[]) {
+    public static void main(String args[]){
         StaticDemo.yaz();
         System.out.println("b = " + StaticDemo.b);  //a = 26
                                                     // b = 64
