@@ -6,7 +6,7 @@ public class deney2 {
         int a=10;
        System.out.println((a--)*(a--));//90
         System.out.println(a--*a--);//90
-       // System.out.println(a--*a);//90
+        // System.out.println(a--*a);//90
        // System.out.println(a*--a);//90
         //System.out.println(a*a--);//100
        // System.out.println(--a*--a);//72

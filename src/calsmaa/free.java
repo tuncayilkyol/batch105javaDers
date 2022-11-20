@@ -3,15 +3,21 @@ package calsmaa;
 public class free {
     public static void main(String[] args) {
 
-        StringBuilder sb = new StringBuilder(5 + 7 + "Java" + 4 + 5);
-        System.out.println(sb);
-        String isim="Mesut";
+        try {
 
-        sb.append(isim, 2, 4);
+            çalış();
 
-        sb.delete(4, 6);
+        } catch (Exception e) {
 
-        System.out.println(sb);
+            System.out.println(e.getMessage());
+
+        }
+
+    }
+
+    private static void çalış() {
+
+        throw new RuntimeException("q");
 
     }
 }
